@@ -60,5 +60,10 @@ int main()
     printf("Ascending Sort Result : ");
     display_list(arr, 5);
 
+    sort(arr, 5, 1);
+    printf("\n");
+    printf("Descending Sort Result : ");
+    display_list(arr, 5);
+
     return 0;
 }
